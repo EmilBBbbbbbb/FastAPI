@@ -43,6 +43,7 @@ def create_book(new_book: NewBook):
         'title': new_book.title,
         'author': new_book.author
     })
+    return {'success': True}
 
 
 if __name__ == '__main__':
