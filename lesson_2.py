@@ -24,5 +24,5 @@ def add_user(user: UserSchema):
 
 
 @app.get('/users')
-def get_users() -> List[UserSchema]:
+def get_users() -> list[UserSchema]:
     return users
